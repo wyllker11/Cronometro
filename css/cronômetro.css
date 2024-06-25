@@ -1,0 +1,70 @@
+body {
+    height: 97vh;
+    background-color: black;     
+    background-image: url("../images/pexels-brett-sayles-1186851-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;       
+}
+
+div {   
+    position: absolute; 
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+h1 {    
+    font-size: 3.3em;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 3.3em;
+    font-weight: bolder;
+    color: whitesmoke;    
+}
+
+#miles {
+    font-size: 0.7em;
+}
+
+button {                    
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    margin-right: 0.5em;  
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {                                /* pseudo class, faz o cursor virar "mãozinha"*/
+    cursor: pointer;
+}
+
+.startBtn {
+    background-color: rgb(31, 170, 31);
+}
+
+.startBtn:hover {
+    background-color:  rgb(34, 194, 34);
+}
+
+.pauseBtn {
+    background-color: silver;
+}
+
+.pauseBtn:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.resetBtn {
+    background-color: rgb(236, 68, 68);
+}
+
+.resetBtn:hover {
+    background-color: rgb(245, 81, 81);
+}
